@@ -18,7 +18,7 @@ https://github.com/Souvik-101-gitHub/Chat-App
 <img width="1892" height="895" alt="profile page" src="https://github.com/user-attachments/assets/36e1cb3b-2827-4b99-8418-a09b5232cf4e" />
 <img width="1342" height="732" alt="Edit page" src="https://github.com/user-attachments/assets/d9ffcd26-2867-45ec-be83-0173ab209e67" />
 
-## 🚀 Features
+# 🚀 Features
 🔐 User Authentication (Login & Signup)
 
 💬 Real-time Messaging
@@ -33,22 +33,32 @@ https://github.com/Souvik-101-gitHub/Chat-App
 
 ☁️ Cloud Image Storage
 
-## 🛠️ Technologies Used
-# Frontend:
+# 🛠️ Technologies Used
+## Frontend:
 - React – UI development <br/>
 - JavaScript (ES6+) – Application logic <br/>
 - CSS3 – Styling and layout <br/>
 - Vite – Fast development and build tool <br/>
-# Backend & Database:
+## Backend & Database:
 - Firebase Authentication – User login & signup <br/>
 - Firebase Firestore – Real-time database <br/>
 - Firebase Hosting / API – Backend services <br/>
 - Media Storage:<br/>
   - Cloudinary – Image upload and storage <br/>
-# Tools & Deployment:
+## Tools & Deployment:
 - GitHub – Version control <br/>
 - Netlify – Deployment <br/>
 - VS Code – Code editor <br/>
+# 🎯 Future Improvements
+- 📎 File sharing <br/>
+- 🎥 Video calling <br/>
+- 😀 Emojis <br/>
+- 👥 Group chat <br/>
+## 👨‍💻 Author
+**Souvik Kumbhakar** <br/>
+
+GitHub: <br/>
+https://github.com/Souvik-101-gitHub
 
 ## React Compiler
 
