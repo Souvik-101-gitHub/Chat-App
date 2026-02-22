@@ -1,0 +1,86 @@
+.rs{
+    color: white;
+    background: rgb(3, 31, 68);
+    position: relative;
+    height: 95vh;
+    overflow-y: scroll;
+    
+}
+.rs-profile{
+    padding-top: 40px;
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+
+}
+.rs-profile img{
+    width: 130px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 254);
+}
+.rs-profile h3{
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 5px 0px;
+}
+.rs-profile p{
+    font-size: 12px;
+    opacity: 80%;
+    font-weight: 300;
+}
+.rs hr{
+    border-color: gray;
+    margin: 15px 0px;
+}
+.rs-media{
+    padding: 0px 20px ;
+    font-size: 13px;
+}
+.rs-media div{
+    max-height: 180px;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    margin-top: 8px;
+}
+.rs-media div img{
+    width: 70px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+}
+.rs button{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    background: rgb(12, 118, 217);
+    color: white;
+    border: none;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 10px 65px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 0.5px solid white;
+    box-shadow: 0px 0px 1px 2px rgb(0, 43, 78);
+
+}
+.arrow{
+    width: 20px;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+@media(max-width:900px){
+    .rs{
+        display: none;
+        width: 300px;
+    }
+}

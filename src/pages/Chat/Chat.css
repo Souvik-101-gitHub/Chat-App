@@ -1,0 +1,115 @@
+/* Main Chat Background */
+.chat {
+    min-height: 100vh;
+    background: linear-gradient(
+        270deg,
+        #89c2f1,
+        #3676ae,
+        #42a5f5,
+        #1a3857
+    );
+    background-size: 600% 600%;
+    animation: blueMove 25s ease infinite;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Gradient Animation */
+@keyframes blueMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+/* Chat Container */
+.chat-container {
+    width: 95%;
+    height: 95vh;
+    max-width: 1400px;
+    background-color: #f8fbff;
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+}
+
+/* With Right Sidebar */
+.chat-container.with-sidebar {
+    grid-template-columns: 320px 1fr 260px;
+}
+
+
+/* Loading Text */
+.loading {
+    font-size: 42px;
+    color: white;
+    font-weight: 500;
+}
+.chat-container {
+    border: 2px solid #fdfdfd;
+}
+
+
+/* ========== Large Screens (Desktop) ========== */
+@media (min-width: 1200px) {
+    .chat-container {
+        grid-template-columns: 350px 1fr;
+    }
+
+    .chat-container.with-sidebar {
+        grid-template-columns: 350px 1fr 280px;
+    }
+}
+
+
+/* ========== Tablet ========== */
+@media (max-width: 900px) {
+    .chat-container {
+        grid-template-columns: 280px 1fr;
+        width: 98%;
+        height: 95vh;
+    }
+
+    .chat-container.with-sidebar {
+        grid-template-columns: 280px 1fr;
+    }
+}
+
+
+/* ========== Mobile ========== */
+@media (max-width: 800px) {
+    .chat {
+        padding: 0;
+    }
+
+    .chat-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        border-radius: 0;
+    }
+
+    .chat-container.with-sidebar {
+        grid-template-columns: 1fr;
+    }
+
+    .loading {
+        font-size: 28px;
+        text-align: center;
+    }
+}
+
+
+/* ========== Small Mobile ========== */
+@media (max-width: 480px) {
+    .loading {
+        font-size: 22px;
+    }
+}
