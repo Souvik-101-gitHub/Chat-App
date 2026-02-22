@@ -12,6 +12,11 @@ https://Souvik-101-gitHub.github.io/Chat-App
 <br/>
 https://github.com/Souvik-101-gitHub/Chat-App
 
+🔗 Chat-App Documentation: 
+<br/>
+[Chat-App-Documentation.pdf](https://github.com/user-attachments/files/25471103/Chat-App-Documentation.pdf)
+
+
 ## 📸Screenshots
 <img width="1907" height="891" alt="sign-up page" src="https://github.com/user-attachments/assets/a7e581e7-7f2d-4d85-b51c-1d9048aac77a" />
 <img width="1911" height="896" alt="chat page" src="https://github.com/user-attachments/assets/d75f8f83-d16f-4d44-868a-6cdc6181b6d6" />
